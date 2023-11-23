@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initia l-scale=1.0">
+    <title>my page</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="practice.js"></script>
+
+</head>
+
+<body class="h-full w-screen px-auto">
+
+    <!-- This is for the popup js -->
+    <div id="info" class="bg-black mx-auto text-white h-fit rounded-2xl mt-24 border-white border-[0.2px] right-0 top-0 absolute z-50">
+        <div class="w-[50vw] grid grid-cols-2 p-12" onclick="{setstatus('info')}">
+
+        <div class="text-sm p-4 w-full">
+            <p class="font-bold text-2xl">
+                Blog
+            </p>
+            Read the industry's latest thoughts on digital marketing, content strategy, SEO, PPC, social media and more.
+        </div>
+
+        <div class="text-sm p-4 w-full">
+            <p class="font-bold text-2xl">
+                FaQ
+            </p>
+            Read the industry's latest thoughts on digital marketing, content strategy, SEO, PPC, social media and more.
+        </div>
+
+        
+        </div>
+    </div>
+
+    <div id="features" class="bg-black mx-auto text-white h-fit rounded-2xl mt-24 border-white border-[0.2px] right-0 top-0 absolute z-50">
+        <div class="w-[50vw] grid grid-cols-2 p-12" onclick="{setstatus('features')}">
+
+        <div class="text-sm p-4 w-full">
+            <p class="font-bold text-2xl">
+                Features
+            </p>
+            Read the industry's latest thoughts on digital marketing, content strategy, SEO, PPC, social media and more.
+        </div>
+
+        <div class="text-sm p-4 w-full">
+            <p class="font-bold text-2xl">
+                FaQ
+            </p>
+            Read the industry's latest thoughts on digital marketing, content strategy, SEO, PPC, social media and more.
+        </div>
+
+        
+        </div>
+    </div>
+
+    <nav class="bg-black items-center h-100 w-full flex">
+
+        <div>
+
+            <img class=" ml-20 h-24" src="./assets/semrush-logo-removebg-preview.png" alt="">
+
+        </div>
+
+
+        <div class="flex justify-center flex-1 items-center m-4">
+
+            <li class="list-none flex gap-8 font-semibold text-white">
+                <ol onclick="{setstatus('info')}">
+                    Features
+                </ol>
+
+                <ol onclick="{setstatus('features')}">
+                    Features
+                </ol>
+
+                <ol>
+                    Features
+                </ol>
+
+                <ol>
+                    Features
+                </ol>
+
+                <ol>
+                    Features
+                </ol>
+
+                <ol>
+                    Features
+                </ol>
+            </li>
+
+        </div>
+
+
+
+        <div class="flex h-fit  items-center">
+
+            <p class="text-slate-400 p-4">
+                EN
+            </p>
+
+            <p class="border-white border-[1px] h-fit text-white m-4 p-1 px-4 rounded-lg">
+                Log In
+            </p>
+
+            <p class="font-semibold text-white  bg-green-300   m-4 p-2 px-4 rounded-lg">
+                Sign Up
+            </p>
+        </div>
+
+
+    </nav>
+
+
+
+    <section class="flex bg-violet-900 flex-col w-screen h-screen pt-20">
+        <p class="font-bold text-5xl  text-white text-center p-4">
+            Get measurable <br>
+            from online marketing.
+
+        </p>
+
+        <p class="text-white text-center text-2xl font-bold m-4">
+            Do SEO, content marketing, competitor research,
+            <br> PPC and social media marketing from just one platform.
+
+        </p>
+
+
+        <div class="justify-center items-center w-[720px] mx-auto flex">
+
+            <div class="bg-white p-4 flex flex-1 rounded-lg">
+                <input type="email" class="w-full text-gray-700 focus:outline-none" placeholder="Enter Your Email" />
+
+
+
+                <select>
+                    <option value="">
+                        USA
+                    </option>
+                </select>
+            </div>
+
+
+            <p class="text-white px-12 py-4 w-fit bg-orange-500 rounded-md ml-4 ">
+                Start Now
+            </p>
+
+        </div>
+
+        <p class="text-center  flex-col m-4 ">Trusted by the world’s leading brands</p>
+
+
+        <div class="flex w-screen mt-12">
+            <img class="ml-20 h-24 " src="tesla.png" alt="">
+            <img class="ml-20 h-24" src="decathlons-jpeg-removebg-preview.png" alt="">
+            <img class="ml-20 h-24 my-auto" src="p&g.png" alt="">
+            <img class="ml-20 h-24" src="samsungs.png" alt="">
+            <img class="ml-20 h-24" src="laliga.png" alt="">
+            <img class="ml-20 my-auto h-8" src="fedex.png" alt="">
+
+        </div>
+
+
+
+    </section>
+
+
+    <section class="bg-violet-900 overflow-auto  w-screen h-full">
+        <p class="flex flex-col items-center text-5xl text-white font-bold mt-14 mb-12"> See what's inside</p>
+
+
+        <div class="bg-white  h-full p-4 w-[85vw] rounded-2xl mx-auto">
+
+            <div class="flex w-full overflow-auto m-4 flex gap-1 ">
+                <img class="h-24"  src="SEO-removebg-preview.png" alt=""> SEO
+                <img class="h-24 ml-20" src="Content_M-removebg-preview.png" alt="">Content Marketing
+                <img class="h-24 ml-20" src="MarketsR-removebg-preview.png" alt="">Market Research
+                <img class="h-24 ml-20" src="Advert-removebg-preview.png" alt="">Advertising
+                <img class="h-24 ml-20" src="Social M.jpeg" alt=""> Social Media
+                <img class="h-24 ml-20" src="Agency_S-removebg-preview.png" alt="">Agency Solutions
+            </div>
+
+
+            <div class="flex w-full  mt-8 bg-white">
+
+
+                <div class="flex-1 ml-14 mt-6">
+                    <p class="flex-1 text-3xl font-bold ">
+                        Grow Organic traffic with our<br> complete and easy SEO<br> tools & workflow
+
+                    </p>
+
+                    <ol class="list-disc m-8">
+                        <li>Uncover millions of national & local keywords </li>
+                        <li>Analyze any domain's backlink profile</li>
+                        <li>Run technical SEO audits</li>
+                        <li>Track your SERP positions daily </li>
+                    </ol>
+
+                    <p class="flex text-xl rounded-md  bg-orange-500 px-4 py-2 w-fit  flex w-[200px]">Try SEO
+                        Toolkit</p>
+
+                </div>
+
+                <div class="text-center flex justify-center flex-1 px-auto">
+                    <img class="w-90 rounded-2xl m-4" src="SEO checker.svg" alt="">
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="bg-white pt-12 p-2 mt-12">
+            <p class="font-bold text-5xl text-center m-4">
+                “Semrush is like a keyword research tool, <br>Google Trends, Moz, Hootsuite and <br>SimilarWeb in
+                one."
+
+            </p>
+            <div class=" h-24 w-24 items-center mx-auto ">
+                <img class=" h-24 rounded-full " src="white.jpeg" alt="">
+
+            </div>
+            <p class="text-2xl text-center">
+                Mario León Rojas<br>
+                Performance Marketing Specialist, Banco del Sol<br>
+                Source: Semrush G2 reviews
+                Award-winning 
+
+            </p>
+
+        </div>
+
+        <div class="flex-col font-bold text-xl bg-white p-4">
+
+            <div>
+
+                <p class="font-bold text-5xl text-center p-4">
+                    Award-winning tools trusted<br> by the world’s leading companies
+                </p>
+
+            </div>
+
+
+            <div class="flex w-full px-36 gap-auto ">
+ 
+                <div class="flex-1 relative">
+
+
+                    <img class="ml-20 h-24 absolute top-0 right-0 mr-28" src="love-removebg-preview.png"
+                        style="z-index: 10;" alt="">
+
+                    <p style="z-index: 999;">
+
+                        <span class="text-6xl">10M
+                        </span><br>marketing professionals<br><span class="font-normal">have already used Semrush</span>
+
+                    </p>
+
+
+
+                </div>
+
+
+                <div class="flex-1 relative">
+                    <p>
+                        <span class="text-6xl z-30">21
+                        </span> <br>international awards<br><span class="font-normal">as best SEO sftware suite</span>
+                        <img class="ml-20 h-16 absolute top-0 left-0 mr-28" src="star-removebg-preview.png" alt="">
+
+                    </p>
+
+                </div>
+
+                <div class="flex-1 relative">
+                    <p>
+                        <span class="text-6xl text-right w-full">30%
+                        </span><br>Fortune 500 companies<br> <span class="font-normal">use Semrush as their go-to
+                            marketing tool</span><br>
+                        <img class="ml-20 h-24 absolute top-0 right-0 mr-28" src="pent-removebg-preview.png" alt="">
+                    </p>
+
+                </div>
+
+            </div>
+
+
+    </section>
+
+    <section class="bg-white w-screen flex py-12 px-12  mt-60 mb-40 ">
+        <div class="flex-1">
+            <p class="text-xl font-bold  mb-12">
+                <span class="font-bold text-5xl"> More data. More insights </span><br><br>With the size of our SEO
+                databases and speed of our<br>
+                backlink crawler, imagine what you can achieve if you have<br> the insights your competitors don’t.
+
+
+            </p>
+            <p class=" bg-orange-700 px-12 py-2 flex w-[200px] rounded-md text-white text-2xl w-fit ">
+                Learn more
+            </p>
+
+        </div>
+
+
+        <div class="grid gap-8 grid-cols-2">
+            <div class="flex-col w-fit px-12 bg-white drop-shadow-2xl rounded-lg p-4">
+                <span class="text-6xl font-bold">25B</span> <br> keywords
+
+            </div>
+            <div class="flex-col w-fit px-12 bg-white drop-shadow-2xl rounded-lg p-4">
+                <span class="text-6xl font-bold"> 43T</span> <br>backlinks
+
+            </div>
+            <div class="flex-col w-fit px-12 bg-white drop-shadow-2xl rounded-lg p-4">
+                <span class="text-6xl font-bold"> 808M</span> <br>domain profiles
+            </div>
+            <div class="flex-col w-fit px-12 bg-white drop-shadow-2xl rounded-lg p-4">
+                <span class="text-6xl font-bold">140</span> <br> geo databases
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="flex px-4">
+        <div class="flex-1 p-6">
+            <img src="semrush.png" alt="">
+        </div>
+        <div class="flex-1 mt-36 ml-12">
+            <div class="font-normal text-xl">
+                <p class="text-5xl font-semibold mb-4">Our CEO will eat his hat</p>
+                <p class="mb-6">... if you find another tool that lets you do all these things</p>
+
+                <ol class="list-disc">
+
+                    <li class="mb-3">Access over 25 billion keywords for 130 countries</li>
+                    <li class="mb-3">Run in-depth website audit based on 130+ checks</li>
+                    <li class="mb-3">Get recommendations to improve your content to increase search rankings</li>
+                    <li class="mb-3">Track and analyze competitor websites and marketing strategies</li>
+                    <li class="mb-3">Create and track your PPC campaigns</li>
+                    <li class="mb-3">Draft, schedule and post content on social</li>
+                    <li class="mb-3">Create and schedule white-labeled or branded reports </li>
+                </ol>
+            </div>
+
+
+            <p class=" bg-orange-500 mt-20 px-12 py-4 flex w-[350px] rounded-md text-white text-1xl font-bold">
+                Discover all semrush features.
+            </p>
+
+
+
+        </div>
+
+    </section>
+
+    <section class="bg-white w-screen ">
+        <p class="items-center justify-center flex font-bold text-5xl mb-12">Here’s why marketers Semrush</p>
+
+        <div class="flex  items-center gap-8 items-center justify-center flex">
+            <p class="border-slate-600 border-2  bg-violet-900 hover:text-white  m-4 p-2 px-4 rounded-full ">Marketing Suites</p>
+            <p class="border-slate-600 border-2 hover:bg-violet-900 hover:text-white text-black m-4 p-2 px-4 rounded-full ">SEO</p>
+            <p class="border-slate-600 border-2 hover:bg-violet-900 hover:text-white text-black m-4 p-2 px-4 rounded-full ">Content marketing</p>
+            <p class="border-slate-600 border-2 hover:bg-violet-900 hover:text-white text-black m-4 p-2 px-4 rounded-full">Market research</p>
+            <p class="border-slate-600 border-2 hover:bg-violet-900 hover:text-white text-black m-4 p-2 px-4 rounded-full">Advertising</p>
+            <p class="border-slate-600 border-2 hover:bg-violet-900 hover:text-white text-black m-4 p-2 px-4 rounded-full ">Social media</p>
+        </div>
+
+        <div class="text-center  overflow-auto bg-orange-700  h-full w-[85vw] 
+         ml-20 mr-30 flex-col p-4 rounded-lg mb-40 mt-8">
+            <p class="m-4 text-1xl font-bold pt-12 ">1/4</p>
+            <p class=" text-3xl m-4 pt-12">
+                "i've been using Semrush for 7+ years now and <br> heavily rely on it to help me move
+                whatever site i'm<br> working on to the top of Google."
+            </p>
+            <div class="h-24 w-24 items-center mx-auto">
+                <img class="h-24  rounded-full" src="female.jpg" alt="">
+
+            </div>
+           
+            <p class="font-bold">Casey Camilleri Marx</p>
+           
+                <p class="text-1xl" >Digital Marketing Director, Nlyte Software</p>
+
+        
+
+        </div>
+
+        <div class="text-center m-4 bg-violet-900 text-white flex justify-center items-center flex-col py-12 ">
+            <span>
+                <p class="text-5xl pt-12 mb-3 "> Get started with Semrush today</p>
+
+            </span>
+            
+            <p class="text-2xl mt-10">Get 7 days of full access to all toolkits. Cancel anytime.</p>
+             <p class="bg-orange-700 mt-12 py-4 px-12 flex w-[350px] rounded-lg ">Start your free trial</p>
+
+        </div>
+
+
+    </section>
+
+
+    <section class=" bg-zinc-950 flex flex-col justify-center items-center mx-auto  text-sm">
+        <div class=" flex justify-center flex-row items-center">
+            <p class="border-white border-[1px] h-fit text-white m-4 p-1 px-4 rounded-lg mr-28 ">Contact us</p>
+           
+           
+                <p class="text-white  mr-28">USA, 800 Boylston Street, Suite 2475, Boston, MA 02199</p>
+              
+                <div class="ml-20">
+                    <p class="bg-green-300 ml-12 py-4 px-12 flex w-[350px] rounded-lg">Get started with
+                        semrush!</p>
+
+               
+               
+                <p class="text-white ml-20 ">or see our plans and pricing</p>
+
+
+                </div>
+                   
+      
+
+        </div>
+
+        <div class=" flex h-fit items-center justify-center ">
+            
+
+
+            <div class="flex justify-start items-start flex-1  text-white " >
+                <div class="mr-28  text-slate-400">
+                    <li class="list-none m-4">
+                        <ol class="font-semibold">SEMRUSH</ol>
+                        <OL>Features</OL>
+                        <ol>Pricing</ol>
+                        <ol>Success Stories</ol>
+                        <ol>Stats and Fact</ol>
+                        <ol>Insights</ol>
+                        <ol>News</ol>
+                    </li>
+
+                    <li class="list-none text-slate-400 m-4" >
+                        <ol class="font-semibold">HELP</ol>
+                         <ol>knowledge Base </ol>
+                         <ol>Academy</ol>
+                         <ol>Semrush API</ol>
+
+                    </li>
+
+                </div>
+
+                
+
+                <div class=" mt-6 mr-28 text-slate-400 ">
+                    <li class="list-none  ">
+                        <ol>Community</ol>
+                        <ol>Semrush Blog</ol>
+                        <ol>Webinars</ol>
+                    </li>
+                </div>
+                
+                <div class="text-slate-400">
+                    <li class="list-none m-4">
+                        <ol class="font-semibold">MORE TOOLS</ol>
+                        <ol>Analytics Reports</ol>
+                        <ol>Projects</ol>
+                        <ol>Content Marketplace</ol>
+                        <ol>Agency Partners</ol>
+                        <ol>Affiliate Program</ol>
+                        <ol>SEOquake</ol>
+                        <ol>Sensor</ol>
+                        <ol>Tools for Amazon</ol>
+                        <ol>Prowly</ol>
+                        <ol>Kompyte</ol>
+                        <ol>App Center</ol>
+                    </li>
+    
+
+                </div>
+
+                <div>
+                    <li class="list-none m-4 text-slate-400">
+                        <ol class="font-semibold">COMPANY
+                            <ol>About Us</ol>
+                            <ol>Newsroom</ol>
+                            <ol> Careers</ol>
+                            <ol>Partner</ol>
+                            <ol> Legal Info</ol>
+                            <ol>Privacy Policy</ol>
+                            <ol>Cookie Settings</ol>
+                            <ol>Security Info</ol>
+                            <ol>For Investors</ol>
+                            <ol>Contact Us</ol>
+                    </li>
+
+                </div>
+               
+            <div class="mb-12 text-slate-400">
+                <li class="list-none m-4">
+                    <ol class="font-semibold"> FOLLOW US</ol>
+                    <ol>Twitter</ol>
+                    <ol>Facebook</ol>
+                    <ol>LinkedIn</ol>
+                    <ol>Instagram</ol>
+                    <ol>YouTube</ol>
+                    <ol>Pinterest</ol>
+                </li>
+
+
+            </div>
+            
+            <div class="mt-4 text-slate-400">
+                <li class="list-none">
+                    <ol class="font-semibold">LANGUAGE</ol>
+                    <ol>English</ol>
+                    <ol>Español</ol>
+                    <ol>Deutsch</ol>
+                    <ol>Français</ol>
+                    <ol>Italiano</ol>
+                    <ol>Polski</ol>
+                    <ol>Português (Brasil)</ol>
+                    <ol>Svenska</ol>
+                    <ol>Tiếng Việt</ol>
+                    <ol>Türkçe</ol>
+                    <ol>中文</ol>
+                    <ol>日本語</ol>
+                    <ol>한국어</ol>
+                </li>
+            </div>
+
+        
+            </div>
+        </div>
+
+    </section>
+    
+        <div class="bg-black h-100 w-full flex">
+            <img class=" ml-20 h-24" src="./assets/semrush-logo-removebg-preview.png" alt=""  alt="">
+            <p class="text-white mt-12 ">© 2008 - 2023 Semrush. All rights reserved.</p>
+        </div>
+
+    
+    
+</body>
+
+</html>
